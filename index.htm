@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TDK三大標籤SEO優化 ->Title (網站標題,是搜索引擎了解網頁的路口和對網頁主題歸屬的最佳判斷點)-->
+    <title>品優購-綜合網購首選-絕對正品, 配送及時, 輕鬆購物!</title>
+
+    <!-- TDK三大標籤SEO優化 ->Description (網站描述,標籤需要前端人員撰寫 內容給予專業人員填寫)-->
+    <meta name="description"
+        content="品优购商城-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+
+    <!-- TDK三大標籤SEO優化 ->Keywords (關鍵字,是搜索引擎的關注點之一,關鍵字最好限制6~8個,之間逗號隔開,越重要的產品寫在前面)-->
+    <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东" />
+
+    <!-- 引入favicon圖標 -->
+    <link rel="shortcut icon" href=" favicon.ico" />
+
+    <!-- 引入我們初始化樣式的文件 -->
+    <link rel="stylesheet" href="css/base.css">
+
+    <!-- 引入我們公共的樣式文件 -->
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- 引入我們主頁的樣式文件 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 快捷導航模塊(shortcut) <section>->大區塊(公共) -->
+    <!-- 通欄的盒子不需要給寬度 -->
+    <section class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品優購歡迎您!&nbsp;</li>
+                    <li>
+                        <!-- 文字間的距離使用空格隔開 -->
+                        <a href="#">請登陸</a>&nbsp;<a href="register.htm" class="style_red">免費註冊</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li>我的訂單</li>
+                    <li></li>
+                    <!-- arrow:箭頭 , icon:圖標 -->
+                    <li class="arrow-icon">我的品優購</li>
+                    <li></li>
+                    <li>品優購會員</li>
+                    <li></li>
+                    <li>企業採購</li>
+                    <li></li>
+                    <li class="arrow-icon">關注品優購</li>
+                    <li></li>
+                    <li class="arrow-icon">客戶服務</li>
+                    <li></li>
+                    <li class="arrow-icon">網站導行</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- header頭部模塊(公共) -->
+    <!-- 既有w的版心寬度還有herder的高度 -->
+    <header class="header w">
+        <!-- logo部分 -->
+        <div class="logo">
+            <!-- logo seo優化 -->
+            <!-- 1.先放<h1>標籤 , 告訴搜索引擎這地方很重要 -->
+            <!-- 2.裡面在放<a>連結 , 把logo圖片給<a>連結 -->
+            <!-- 3.為了搜索引擎能夠收入我們網站,我們連結裡面要放文字(網站名稱),然後文字不要顯示出來 -->
+            <!-- 4.最後給連結添加title屬性讓鼠標移動到圖標時可以看到提示文字 -->
+            <h1>
+                <a href="#" title="品優購商城">品優購商城</a>
+            </h1>
+        </div>
+
+        <!-- search搜索模塊 -->
+        <div class="search">
+            <!-- 需要去base.css裡面修改buttion,input -->
+            <input type="search" name="" id="" placeholder="語言開發">
+            <button>搜索</button>
+        </div>
+        <!-- hotwords模塊 -->
+        <div class="hotwords">
+            <a href="#" class="style_red">優惠購首發</a>
+            <a href="#">一元優惠</a>
+            <a href="#">9.9元團購</a>
+            <a href="#">每滿99減30</a>
+            <a href="#">辦公用品</a>
+            <a href="#">電腦</a>
+            <a href="#">通信</a>
+        </div>
+        <!-- 購物車模塊 -->
+        <!-- 利用偽元素製作插圖 -->
+        <div class="shopcar">我的購物車
+            <i class="count">8</i>
+        </div>
+    </header>
+
+
+    <!-- nav模塊(公共) -->
+    <!-- 通欄的盒子不需要寬度 只需要高度和下邊框 -->
+    <nav class="nav">
+        <div class="w">
+            <!-- 左盒子 -->
+            <div class="dropdown">
+                <!-- 根據關聯性,全部商品分類和商品的詳細分類應該包含在一起 -->
+                <div class="dt">全部商品分類</div>
+                <div class="dd">
+                    <ul>
+                        <li><a href="#">家用電器</a></li>
+                        <li><a href="list.htm">手機</a>、 <a href="#">數碼</a>、 <a href="#">通信</a></li>
+                        <li><a href="#">电脑、办公</a></li>
+                        <li><a href="#">家居、家具、家装、厨具</a> </li>
+                        <li><a href="#">男装、女装、童装、内衣</a> </li>
+                        <li><a href="#">个户化妆、清洁用品、宠物</a> </li>
+                        <li><a href="#">鞋靴、箱包、珠宝、奢侈品</a> </li>
+                        <li><a href="#">运动户外、钟表</a> </li>
+                        <li><a href="#">汽车、汽车用品</a> </li>
+                        <li><a href="#">母婴、玩具乐器</a> </li>
+                        <li><a href="#">食品、酒类、生鲜、特产</a> </li>
+                        <li><a href="#">医药保健</a> </li>
+                        <li><a href="#">图书、音像、电子书</a> </li>
+                        <li><a href="#">彩票、旅行、充值、票务</a> </li>
+                        <li><a href="#">理财、众筹、白条、保险</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右盒子 -->
+            <div class="navitems">
+                <ul>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                    <li><a href="#">服裝城</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- 首頁專有的模塊main -->
+    <div class="w">
+        <div class="main">
+            <!-- 左側圖片盒子 -->
+            <div class="focus">
+                <!-- 按鈕 -->
+                <!-- 左側按鈕 -->
+                <a href="#" class="prev">&lt;</a>
+                <!-- 右側按鈕 -->
+                <a href="#" class="next">&gt;</a>
+                <!-- 小圓點 -->
+                <ul class="promo-nav">
+
+                    <li class="selected"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+                <!-- 根據列表來滾動圖片 -->
+                <ul>
+                    <li><img src="upload/focus1.png" alt=""></li>
+                </ul>
+            </div>
+
+            <!-- 右側內容盒子 -->
+            <div class="newflash">
+                <div class="news">
+                    <!-- 頭 -->
+                    <div class="news-hd">
+                        <h5>品優購快報</h5>
+                        <a href="#" class="more">更多</a>
+                    </div>
+                    <!-- 主體 -->
+                    <div class="news-bd">
+                        <ul>
+                            <li><a href="#"><strong>[特惠]</strong> 備戰開學季 全民半價購數碼全民半價購數碼</a></li>
+                            <li><a href="#"><strong>[特惠]</strong> 備戰開學季 全民半價購數碼全民半價購數碼</a></li>
+                            <li><a href="#"><strong>[特惠]</strong> 備戰開學季 全民半價購數碼全民半價購數碼</a></li>
+                            <li><a href="#"><strong>[特惠]</strong> 備戰開學季 全民半價購數碼全民半價購數碼</a></li>
+                            <li><a href="#"><strong>[特惠]</strong> 備戰開學季 全民半價購數碼全民半價購數碼</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lifeservice">
+                    <ul>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <!-- 標籤圖片利用定位擺放 -->
+                            <em><img src="images/Hot.png" alt=""></em>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>話費</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bargain">
+                    <img src="upload/bargain.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 推薦模塊 -->
+    <div class="w recom">
+        <div class="recom_hd">
+            <img src="images/recom.png" alt="">
+        </div>
+        <div class="recom_bd">
+            <ul>
+                <li><img src="upload/recom_03.jpg" alt=""></li>
+                <li><img src="upload/recom_03.jpg" alt=""></li>
+                <li><img src="upload/recom_03.jpg" alt=""></li>
+                <li><img src="upload/recom_03.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 樓層區域 -->
+    <!-- 注意不要給寬度,內容有多少,算多少 -->
+    <div class="floor">
+        <!-- 一樓 家用電器樓層 (home_appli類名用於區別樓層)-->
+        <div class="w home_appli">
+            <div class="box_hd">
+                <h3>家用電器</h3>
+                <div class="tab_list">
+                    <ul>
+                        <li> <a href="#" class="style_red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">厨房电器</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">个护健康</a>|</li>
+                        <li><a href="#">应季电器</a>|</li>
+                        <li><a href="#">空气/净水</a>|</li>
+                        <li><a href="#">新奇特</a>|</li>
+                        <li><a href="#"> 高端电器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box_bd">
+                <div class="tab_content">
+                    <!-- 聯繫第一個<li> -->
+                    <div class="tab_list_item">
+                        <!-- 分別設置寬度 -->
+                        <div class="col_210">
+                            <ul>
+                                <li><a href="#"></a>節能補貼</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                            </ul>
+                            <a href="#"><img src="upload/floor-1-1.png" alt=""></a>
+                        </div>
+                        <div class="col_329">
+                            <a href="#"><img src="upload/floor-1-b01.png" alt=""></a>
+                        </div>
+                        <div class="col_221" class="bb">
+                            <a href="#" class="bb"><img src="upload/floor-1-2.png" alt=""></a>
+                            <a href="#"><img src="upload/floor-1-3.png" alt=""></a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#"><img src="upload/floor-1-4.png" alt=""></a>
+
+                        </div>
+                        <div class="col_219">
+                            <a href="#" class="bb"><img src="upload/floor-1-5.png" alt=""></a>
+                            <a href="#"><img src="upload/floor-1-6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 二樓 手機通訊樓層 (phone類名用於區別樓層) -->
+        <div class="w phone">
+            <div class="box_hd">
+                <h3>手機通訊</h3>
+                <div class="tab_list">
+                    <ul>
+                        <li> <a href="#" class="style_red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">厨房电器</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">个护健康</a>|</li>
+                        <li><a href="#">应季电器</a>|</li>
+                        <li><a href="#">空气/净水</a>|</li>
+                        <li><a href="#">新奇特</a>|</li>
+                        <li><a href="#"> 高端电器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box_bd">
+                <div class="tab_content">
+                    <!-- 聯繫第一個<li> -->
+                    <div class="tab_list_item">
+                        <!-- 分別設置寬度 -->
+                        <div class="col_210">
+                            <ul>
+                                <li><a href="#"></a>節能補貼</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                                <li><a href="#"></a>4k電視</li>
+                            </ul>
+                            <a href="#"><img src="upload/floor-1-1.png" alt=""></a>
+                        </div>
+                        <div class="col_329">
+                            <a href="#"><img src="upload/floor-1-b01.png" alt=""></a>
+                        </div>
+                        <div class="col_221" class="bb">
+                            <a href="#" class="bb"><img src="upload/floor-1-2.png" alt=""></a>
+                            <a href="#"><img src="upload/floor-1-3.png" alt=""></a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#"><img src="upload/floor-1-4.png" alt=""></a>
+
+                        </div>
+                        <div class="col_219">
+                            <a href="#" class="bb"><img src="upload/floor-1-5.png" alt=""></a>
+                            <a href="#"><img src="upload/floor-1-6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- 底部模塊(公共) -->
+    <footer class="footer">
+        <!-- 版心 -->
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <h5></h5>
+                        <div class="sservice_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障,提供發票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="sservice_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障,提供發票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="sservice_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障,提供發票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h5></h5>
+                        <div class="sservice_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障,提供發票</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mod_help">
+                <dl>
+                    <dt>服務指南</dt>
+                    <dd><a href="#">購物流程</a></dd>
+                    <dd><a href="#">會員介紹</a></dd>
+                    <dd><a href="#">生活旅行/團購</a></dd>
+                    <dd><a href="#">常見問題</a></dd>
+                    <dd><a href="#">大家電</a></dd>
+                    <dd><a href="#">聯繫客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>服務指南</dt>
+                    <dd><a href="#">購物流程</a></dd>
+                    <dd><a href="#">會員介紹</a></dd>
+                    <dd><a href="#">生活旅行/團購</a></dd>
+                    <dd><a href="#">常見問題</a></dd>
+                    <dd><a href="#">大家電</a></dd>
+                    <dd><a href="#">聯繫客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>服務指南</dt>
+                    <dd><a href="#">購物流程</a></dd>
+                    <dd><a href="#">會員介紹</a></dd>
+                    <dd><a href="#">生活旅行/團購</a></dd>
+                    <dd><a href="#">常見問題</a></dd>
+                    <dd><a href="#">大家電</a></dd>
+                    <dd><a href="#">聯繫客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>服務指南</dt>
+                    <dd><a href="#">購物流程</a></dd>
+                    <dd><a href="#">會員介紹</a></dd>
+                    <dd><a href="#">生活旅行/團購</a></dd>
+                    <dd><a href="#">常見問題</a></dd>
+                    <dd><a href="#">大家電</a></dd>
+                    <dd><a href="#">聯繫客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>服務指南</dt>
+                    <dd><a href="#">購物流程</a></dd>
+                    <dd><a href="#">會員介紹</a></dd>
+                    <dd><a href="#">生活旅行/團購</a></dd>
+                    <dd><a href="#">常見問題</a></dd>
+                    <dd><a href="#">大家電</a></dd>
+                    <dd><a href="#">聯繫客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>幫助中心</dt>
+                    <dd>
+                        <img src="images/二維碼.jpg" alt="">
+                        優購客戶端
+                    </dd>
+                </dl>
+            </div>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a> | <a
+                        href="#">营销中心</a>
+                    | <a href="#">手机品优购</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">品优购社区</a>
+                    | <a href="#">品优购公益</a> | <a href="#">English Site</a> | <a href="#">Contact Us</a>
+                </div>
+                <div class="copyright">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                    京ICP备08001421号京公网安备110108007702
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
